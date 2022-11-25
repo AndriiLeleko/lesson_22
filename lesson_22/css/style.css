@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display+swap");
+
+body {
+    font-family: "Lato";
+    color: #424551;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper>main {
+    flex-grow: 1;
+}
+
+[class*="__container"] {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ========================================================================= */
+section {
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section span {
+    font-weight: bold;
+}
+
+section h2:not(last-child) {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.js-basis {
+    background-color: rgba(121, 79, 69, 0.4);
+}
+
+.js-variables {
+    background-color: rgba(119, 96, 141, 0.4);
+}
+
+.js-types {
+    background-color: rgba(122, 149, 107, 0.4);
+}
